@@ -1,5 +1,5 @@
 .\" -*- mode: nroff -*-
-.ds V 1.86
+.ds V 1.88
 .ds E " \-\- 
 .if t .ds E \(em
 .de Op
@@ -290,6 +290,13 @@ error.
 .Op \-\-no\-warnings ", " \-w
 '
 Suppress all warning messages.
+'
+.Sp
+.TP
+.Op \-\-no\-ignore\-errors
+'
+Exit with status 1 when encountering a very erroneous GIF. Default is to
+muddle on.
 '
 .Sp
 .TP
